@@ -1,7 +1,12 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 const Header = () => {
+    const navigate = useNavigate ();
+    const handleLogout = () => {
+        localStorage.removeItem('token');
+        navigate('/');
+    }
   return (
     <div className='header'>
       <ul className='nav-bar'>
@@ -16,6 +21,9 @@ const Header = () => {
           </NavLink>
         </li>
       </ul>
+      <div className='logout-button'>
+      <button type='submit' onClick={handleLogout}>Logout</button>
+      </div>
     </div>
   );
 };
