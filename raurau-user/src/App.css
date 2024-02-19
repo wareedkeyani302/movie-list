@@ -1,0 +1,129 @@
+.container{
+margin: 0;
+max-width: 100%;
+padding: 0;
+}
+.login-main-content{
+  height: 100vh;
+  background-color: #8c72ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container{
+  min-width: 900px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.16);
+  min-height: 550px;
+  background-color: white;
+  overflow: hidden;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  display: flex;
+  flex-direction: row;
+}
+.login-company-content{
+  flex: 1 1 0;
+  max-width: 50%;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.company-name{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #494949;
+}
+.footer{
+  font-size: 12px;
+  color: #8b8b8b;
+  font-weight: 500;
+  text-align: center;
+}
+.login-form-content{
+  background-color: #f3edeb;
+  display: flex;
+  align-items: center;
+  min-width: 450px;
+  flex: 1 1 0;
+  max-width: 50%;
+  padding: 35px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.login-form-container {
+  display: flex;
+  flex: 1 1 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-form-heading{
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#login-form-button{
+  min-height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+  font-weight: 500;
+  background-color: #f8f9fa;
+  color: #000;
+}
+.login-with{
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.microsoft-img{
+  height: 20px;
+  width: 20px;
+}
+.login-back-btn{
+  margin-bottom: -50px;
+  cursor: pointer;
+}
+.login-form-heading{
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.login-field-container .login-field {
+  background-color: white;
+  border-radius: 5px;
+  height: 32px;
+  max-height: 32px;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.07);
+  font-size: 14px;
+  border: 2px transparent;
+  margin: 0px;
+}
+.login-label{
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #303030;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#login-submit-button{
+  min-height: 40px;
+  width: 100%;
+  border-radius: 0px;
+  margin: 10px 0px;
+  font-weight: 500;
+}
+.login-forget-password{
+  color: #303030;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+}
+.spacing{
+  margin: 40px;
+}
